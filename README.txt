@@ -60,9 +60,9 @@ AVcontrol gui toc do va goc lai de dieu khien xe
 show 1 so thu vien ban to chuc cai san, cv2, pytorch
 chay xong thi stop, start tren visual luon
 cai` them thu vien thi nho commit
-63  docker commit "containerid" tri/it_car_2023:v1
+63  docker commit "containerid" ceec_member/it_car_2023:v1
 64  docker image ls
-65  docker save -o tri_itcar2023.tar tri/it_car_2023:v1
+65  docker save -o ceec_member_itcar2023.tar ceec_member/it_car_2023:v1
 66  ls
 67  docker image rm "imageid"
 69  docker load --input tri_itcar2023.tar
