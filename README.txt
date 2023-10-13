@@ -10,6 +10,10 @@ Ubuntu command setups for IT_Car
     6  sudo reboot
 
 //docker
+Docker là một phần mềm nguồn mở được thiết kế để hỗ trợ và đơn giản hóa việc phát triển ứng dụng. Nó là một tập hợp các platform-as-a-service products tạo ra các virtualized environments cô lập để building, deploy , và testing các ứng dụng.
+Docker image là một file bất biến - không thay đổi, chứa các source code, libraries, dependencies, tools và các files khác cần thiết cho một ứng dụng để chạy.
+Docker container là một run-time environment mà ở đó người dùng có thể chạy một ứng dụng độc lập. 
+
    27  sudo apt update
    28  sudo apt install apt-transport-https ca-certificates curl software-properties-common
    29  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
@@ -31,6 +35,8 @@ Ubuntu command setups for IT_Car
    40  sudo apt-get install -y nvidia-container-toolkit
 
 //setups+docker_tutor
+https://drive.google.com/file/d/1On6iAmioqvXPbQl20_R3ndLwDB5msQj9/view?usp=drivesdk
+
    41  docker pull quocle28/it_car_2023:v1
    42  xhost +local:docker
    20  docker image ls
