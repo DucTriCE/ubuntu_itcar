@@ -36,7 +36,7 @@ Docker container là một run-time environment mà ở đó người dùng có 
 
 //setups+docker_tutor
 https://drive.google.com/file/d/1On6iAmioqvXPbQl20_R3ndLwDB5msQj9/view?usp=drivesdk
-
+https://docs.google.com/document/d/1jeUR6GjCre7cgNVibWkCL3-wlsYhwPEh/edit
    41  docker pull quocle28/it_car_2023:v1
    42  xhost +local:docker
    20  docker image ls
