@@ -69,4 +69,6 @@ cai` them thu vien thi nho commit
 72  docker run --name it-car1 -it -p 11000:11000 --network="host"  -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --gpus all "newimageid"
 73  docker image ls
 
+sudo nvidia-smi -pm 1 --> Turn on GPU in nvidia-smi
+
  
