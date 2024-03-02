@@ -41,7 +41,7 @@ https://docs.google.com/document/d/1jeUR6GjCre7cgNVibWkCL3-wlsYhwPEh/edit
    42  xhost +local:docker
    20  docker image ls
    22  docker run --name it-car -it -p 11000:11000 --network="host"  -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --gpus all "imageid"
-
+   // Command run on server: sudo docker run -itd --name nghiatg --gpus all --shm-size="24g" --mount type=bind,source=/home,target=/home nvidia/cuda:12.2.0-devel-ubuntu20.04
 //Download visualcode
 https://code.visualstudio.com/docs/setup/linux (chon download)
    45  cd Downloads/
